@@ -1,0 +1,111 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Contenedor principal */
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Logo y descripción */
+.logo {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1877f2;
+    margin-bottom: 10px;
+}
+
+.description {
+    font-size: 18px;
+    color: #606770;
+    margin-bottom: 20px;
+}
+
+/* Caja de inicio de sesión */
+.login-box {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 360px;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 14px;
+    margin: 8px 0;
+    border: 1px solid #dddfe2;
+    border-radius: 6px;
+    font-size: 16px;
+    outline: none;
+}
+
+/* Botón de inicio de sesión */
+button {
+    width: 100%;
+    padding: 14px;
+    background-color: #1877f2;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #166fe5;
+}
+
+/* Enlace de contraseña olvidada */
+.forgot-password {
+    display: block;
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+/* Línea divisoria */
+.divider {
+    height: 1px;
+    background-color: #dadde1;
+    margin: 20px 0;
+}
+
+/* Botón de registro */
+.create-account {
+    background-color: #42b72a;
+    font-size: 16px;
+    padding: 12px;
+}
+
+.create-account:hover {
+    background-color: #36a420;
+}
+
+/* Pie de página */
+.footer {
+    margin-top: 20px;
+    font-size: 12px;
+    color: #606770;
+}
